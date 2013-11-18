@@ -1,0 +1,32 @@
+[extensions]
+color =
+graphlog =
+pager =
+rebase =
+purge =
+remotebranches = ~/.hgext/hg_remotebranches.py
+kilnauth = ~/.hgext/kilnauth.py
+big-push = ~/.hgext/big-push.py
+caseguard = ~/.hgext/caseguard.py
+gestalt = ~/.hgext/gestalt.py
+eol =
+convert =
+shelve =
+
+[alias]
+lga = !$HG glog --style=$HOME/.hgext/map-cmdline.lg
+
+[bookmarks]
+track.current = true
+
+[auth]
+kiln.username = Mike Aldred
+
+[pager]
+pager = LESS='FSRX' less
+attend = cat, diff, glog, log, incoming, outgoing, lg, show, lga
+
+[hostfingerprints]
+blacktiger.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
+directcommunications.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
+developers.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
