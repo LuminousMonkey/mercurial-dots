@@ -60,7 +60,7 @@ show = nlog --color=always -vpr
 sl = !"$HG" nlog --color=always -vpr $@ | less -R
 
 st = status -SC
-? = summary
+sm = summary
 fdiff = diff -U 10000000000000
 d = diff -p --color=auto
 
