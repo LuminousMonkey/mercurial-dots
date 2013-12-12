@@ -60,7 +60,7 @@ show = nlog --color=always -vpr
 sl = !"$HG" nlog --color=always -vpr $@ | less -R
 
 st = status -SC
-? = summary
+sm = summary
 fdiff = diff -U 10000000000000
 d = diff -p --color=auto
 
@@ -99,3 +99,4 @@ attend = cat, diff, glog, log, incoming, outgoing, lg, show, lga
 blacktiger.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
 directcommunications.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
 developers.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
+curtin.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
