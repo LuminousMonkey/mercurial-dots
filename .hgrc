@@ -68,6 +68,10 @@ d = diff -p --color=auto
 vshow = !$HG show $@ | vim -c ':AnsiEsc' -c 'setlocal buftype=nofile' -
 vdiff = !$HG diff -p --color=always $@ | vim -c ':AnsiEsc' -c 'setlocal buftype=nofile' -
 
+nudge = push --rev .
+# Nuke everything in the working copy
+nuke = !hg up -C . && hg clean
+
 [color]
 status.modified = cyan
 status.added = green
