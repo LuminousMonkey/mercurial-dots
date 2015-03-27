@@ -101,6 +101,6 @@ attend = cat, diff, glog, log, incoming, outgoing, lg, show, lga
 
 [hostfingerprints]
 blacktiger.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
-directcommunications.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
+directcommunications.kilnhg.com = f1:01:76:c2:31:e9:cd:a4:8c:a1:22:45:af:f2:0c:c1:59:61:7a:dd
 developers.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
 curtin.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
