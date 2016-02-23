@@ -1,5 +1,5 @@
 [ui]
-editor = vim
+editor = et
 commitsubrepos = false
 ignore = ~/.hgignore
 
@@ -20,6 +20,7 @@ caseguard = ~/.hgext/caseguard.py
 gestalt = ~/.hgext/gestalt.py
 convert =
 shelve =
+histedit =
 
 [progress]
 delay = 1.0
