@@ -21,6 +21,7 @@ gestalt = ~/.hgext/gestalt.py
 convert =
 shelve =
 histedit =
+mq =
 
 [progress]
 delay = 1.0
@@ -101,7 +102,7 @@ pager = LESS='FSRX' less
 attend = cat, diff, glog, log, incoming, outgoing, lg, show, lga
 
 [hostfingerprints]
-blacktiger.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
+blacktiger.kilnhg.com = 92:cc:da:46:71:f8:89:cf:9e:f4:3f:17:3b:2b:c0:3a:8c:76:56:53
 directcommunications.kilnhg.com = f1:01:76:c2:31:e9:cd:a4:8c:a1:22:45:af:f2:0c:c1:59:61:7a:dd
 developers.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
 curtin.kilnhg.com = c3:83:2c:5a:2d:01:81:5b:1a:61:7d:d9:7d:82:12:38:67:b1:ca:a8
